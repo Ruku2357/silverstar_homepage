@@ -1,0 +1,23 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" id="finalIcon">
+                        <!-- 正六角形の描画：座標を完全に一致（中心 16,16 半径 14） -->
+                        <!-- 頂点: (28.1, 9) (28.1, 23) (16, 30) (3.9, 23) (3.9, 9) (16, 2) -->
+                        <path d="M16 2L28.1244 9V23L16 30L3.87564 23V9L16 2Z" fill="#0D0D0F"></path>
+                        <path d="M16 2L28.1244 9V23L16 30L3.87564 23V9L16 2Z" stroke="#3b82f6" stroke-width="0.5" opacity="0.3"></path>
+                        
+                        <!-- 中心に向けた構造ライン -->
+                        <path d="M16 2V9M28.1244 23L22 19.5M3.87564 23L10 19.5" stroke="#3b82f6" stroke-width="0.5" opacity="0.2"></path>
+
+                        <!-- 頂点のドット：パスの端点と座標を100%一致 -->
+                        <circle cx="16" cy="2" r="1.2" fill="#3b82f6"></circle>
+                        <circle cx="28.1244" cy="9" r="1.2" fill="#3b82f6"></circle>
+                        <circle cx="28.1244" cy="23" r="1.2" fill="#3b82f6"></circle>
+                        <circle cx="16" cy="30" r="1.2" fill="#3b82f6"></circle>
+                        <circle cx="3.87564" cy="23" r="1.2" fill="#3b82f6"></circle>
+                        <circle cx="3.87564" cy="9" r="1.2" fill="#3b82f6"></circle>
+
+                        <!-- 中央に配置された R （Precision R スタイル） -->
+                        <g transform="translate(1, 0.5)">
+                            <path d="M12 10H18C19.6569 10 21 11.3431 21 13C21 14.6569 19.6569 16 18 16H12V22M12 16H15L20 22" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="square"></path>
+                            <path d="M12 10H18C19.6569 10 21 11.3431 21 13C21 14.6569 19.6569 16 18 16H12V22M12 16H15L20 22" stroke="white" stroke-width="0.8" stroke-linecap="square"></path>
+                        </g>
+                    </svg>
